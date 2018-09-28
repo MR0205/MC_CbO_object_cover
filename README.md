@@ -6,8 +6,7 @@ The necessity of construction of a set of minimal hypotheses for a formal contex
 An excellent introduction to the theoretical perspective of the formalism upon which the algorithm works is given in (Kuznetsov, S.O., 2001) with examples where and how the hypotheses are used.
 
 ```
-Kuznetsov, S. O. "Machine learning on the basis of formal concept analysis." 
-
+Kuznetsov, S. O. "Machine learning on the basis of formal concept analysis."
 Automation and Remote Control 62.10 (2001): 1543-1564.
 ```
 
@@ -15,7 +14,6 @@ Also the canonical Close-by-One algorithm on which the proposed algorithm builds
 
 ```
 S.O.Kuznetsov, A fast algorithm for computing all intersections of objects from an arbitrary semilattice.
-
 Nauchno-Tekhnicheskaya Informatsiya Seriya 2 - Informatsionnye protsessy i sistemy, No. 1, pp.17-20, 1993.
 ```
 
@@ -28,7 +26,7 @@ Nauchno-Tekhnicheskaya Informatsiya Seriya 2 - Informatsionnye protsessy i siste
 
 [Dmitry Morozov](https://github.com/MR0205) - Implementation
 
-Sergei. O. Kuznetsov - Scientific Mentoring
+[Sergei. O. Kuznetsov](https://www.hse.ru/en/staff/skuznetsov) - Scientific Mentoring
 
 
 ## License
