@@ -17,8 +17,8 @@ S.O.Kuznetsov, A fast algorithm for computing all intersections of objects from 
 
 ### Algorithm's Pseudo-Code
 
-![equation](images/1.png)
-![equation](images/2.png)
+![Recursive function of finding minimal hypotheses](images/1.png)
+![Main function](images/2.png)
 
 ## Authors
 
@@ -33,4 +33,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Useful Links
 
-[Formal Concept Analysis Homepage] (http://www.upriss.org.uk/fca/fca.html)
+[Formal Concept Analysis Homepage](http://www.upriss.org.uk/fca/fca.html)
