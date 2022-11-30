@@ -397,56 +397,6 @@ int GetNumberOfObjectsPossibleToCover() {
     }
   }
   return number_of_objects_possible_to_cover;
-
-  //int kNumberOfIterationsBetweenCheckings = 100;
-  //vector<int> empty_object_set;
-
-  //set<int> all_covered_objects;
-  //int number_of_repeated_hypothesis = 0;
-
-  //int previous_number_of_covered_objects = 0;
-
-  //do {
-  //  previous_number_of_covered_objects = all_covered_objects.size();
-  //  for (int iteration = 0; iteration < kNumberOfIterationsBetweenCheckings; ++iteration) {
-  //    int first_object_to_add = rand() % g_NumberOfObjects;
-  //    bool there_is_hypothesis = 
-  //      AddObjectRecursively(empty_object_set, first_object_to_add, g_EntireAttributeSet);
-
-  //    if (there_is_hypothesis) {
-  //      bool current_hypothesis_is_unique = LastHypothesisIsNotInList();
-  //      if (current_hypothesis_is_unique) {
-  //        vector<int> objects_covered_by_current_hypothesis = g_HypothesisExtents.back();
-  //        // TODO: is it the best?
-
-  //        all_covered_objects.insert(objects_covered_by_current_hypothesis.begin(),
-  //                                   objects_covered_by_current_hypothesis.end());
-  //        if (g_Verbosity) {
-  //          cout << endl;
-  //        }
-  //      } else {
-  //        g_HypothesisExtents.pop_back();
-  //        g_HypothesisIntents.pop_back();
-  //        g_HypothesisMarkOfClass.pop_back();
-
-  //        ++number_of_repeated_hypothesis;
-  //        if (g_Verbosity) {
-  //          cout << " Found hypothesis already in the list" << endl << endl;
-  //        }
-  //      }
-  //    } else {
-  //      if (g_Verbosity) {
-  //        // Means that one of the randomly inserted objectes could not be covered by hypothesis
-  //        cout << " Attempt to find hypothesis failed." <<endl;
-  //      }
-  //    }
-  //  }
-  //} while (all_covered_objects.size() > previous_number_of_covered_objects);
-
-  //g_NumberOfRepeatedHypotheses = number_of_repeated_hypothesis;
-  //
-  ////cout << " Objects covered: " << all_covered_objects.size() << endl;
-  //return all_covered_objects.size();
 }
 
 
